@@ -1,0 +1,15 @@
+#4
+
+1)Arr
+2)Arr1
+3)Arr2
+4)ArrForEach
+5)PassingFun
+6)TwoDarr
+7)TwoDarrInput
+8)ArrList
+9)ArrList2
+10)ArrSwap = Q. Swap the array elements
+11)MaxVal = Q.Find the maximum value in array
+12)MaxVal2 = Q.Find the maximum value in array in the particular range
+13)RevArr = Q.Reverse the array (2 Pointer method)

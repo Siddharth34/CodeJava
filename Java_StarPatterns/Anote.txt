@@ -1,0 +1,11 @@
+#6
+
+How to approch pattern type questions
+
+1) identify the number of rows
+2) Number of line = no of rows number of time loop will be run 
+3) identify for every row number 
+* how many colum in there
+* type of element in the colum
+4) What do you need to print
+5) Try to find formula relating to rows and colums

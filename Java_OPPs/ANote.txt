@@ -1,0 +1,21 @@
+🔰 Refer to This link Also = https://www.javatpoint.com/oops-interview-questions
+
+1) What do you understand by OOP?
+💨 Object-oriented programming (OOPs) is based on the concept of objects rather than just functions and procedures
+
+2) Why OOP is so popular?
+💨 its reduce code complexity and make it easy for programmers
+
+3) What are the four main features of OOPs?
+💨 Inheritance, Encapsulation, Polymorphism, Data Abstraction
+
+4) Why Java is not a pure object-oriented programming language?
+💨Java is not a pure object-oriented programming language because pre-defined data types in Java are not treated as objects. Hence, it is not a pure object-oriented language.
+
+5) What are the differences between class and object?
+💨 For example Car is Class and Tata and Ford is objects of the car class
+(It is just like a variable of a class) Their for class is a logical entity and Tata and Ford is the real-world entity.
+
+6)What is mean by Constructor 
+💨 In Java, a constructor is a block of codes similar to the method. It is called when an instance of the class is created
+Type Of Constructors = 1) No-argument Constructor 2) Parameterized Constructor  

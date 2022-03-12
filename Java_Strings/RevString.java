@@ -1,0 +1,16 @@
+public class RevString {
+    public static void main(String[] args) {
+        String s = "sid";
+        String rev = "";
+
+        for(int i = s.length() - 1 ; i >=0 ; i--){
+            rev = rev + s.charAt(i);
+        }
+
+        System.out.println(rev);
+    }
+}
+
+// length = sid = 123
+// charAT = sid = 012
+// O/P = dis

@@ -1,0 +1,23 @@
+#3
+
+Function or Method = 
+    it is used for avoid repeted code 
+
+Syntax - 
+return type nameOfFunction(){
+    // body
+    // return statment
+}
+
+
+1) Fun0
+2) Fun1
+3) ReturnString
+4)FunPara
+5)ArrFunction
+6)swapFun
+7)Scope
+8)Shadowing
+9)VarArgs
+10)PrimeFun
+
