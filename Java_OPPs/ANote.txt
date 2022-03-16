@@ -19,3 +19,78 @@
 6)What is mean by Constructor 
 💨 In Java, a constructor is a block of codes similar to the method. It is called when an instance of the class is created
 Type Of Constructors = 1) No-argument Constructor 2) Parameterized Constructor  
+
+7)What is mean by packages 
+💨 A java package is a group of similar types of classes, interfaces and sub-packages
+ Two types of packages = 1) Built-in package ex.java, lang, awt, javax, swing etc. 2) User-defined package
+
+8)What is mean by Static variable
+💨 If you declare any variable as static, it is known as a static variable . t makes your program memory efficient
+    Understanding the problem without static variable
+
+    class Student{  
+     int rollno;  
+     String name;  
+     String college="ITS";  
+    }  
+
+    Suppose there are 500 students in my college, now all instance data members will get memory each time when the object is created.
+    All students have its unique rollno and name, so instance data member is good in such case.
+    Here, "college" refers to the common property of all objects
+    If we make it static, this field will get the memory only once.
+
+9)What is mean by Static Method
+💨 In Java, a static method is a method that belongs to a class rather than an instance of a class
+   Restrictions Static Method =
+1) The static method can not use non static data member or call non-static method directly.
+2) this and super cannot be used in static context.
+
+10)Why is the Java main method static?
+💨 It is because the object is not required to call a static method. If it were a non-static method, JVM creates an object first then call main() method that will lead the problem of extra memory allocation.
+
+11) What is mean by Inheritance?
+💨 Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object.
+    Four types of Inheritance = 
+    1) Single Inheritance = One class extends another class ex. A => B
+    2) Multilevel Inheritance = When there is a chain of inheritance, it is known as Multilevel Inheritance ex. A => B => C
+    3) Multiple Inheritance = One class extending more than one class A & B => C
+        Note: Multiple Inheritance Is not used in java
+        Because : Refer to This link = https://www.javatpoint.com/inheritance-in-java
+        but might be some uses... using interfaces
+    4) Hierarchical Inheritance = One Class is instance by many class A => B & C & D
+    🔰 Refer to This link Also = https://www.javatpoint.com/inheritance-in-java
+    5) Hybrid Inheritance = Combination Of Single Inheritance and Multiple Inheritance
+        Note: Hybrid Inheritance Is not used in java
+        Because : Refer to This link = https://www.javatpoint.com/inheritance-in-java
+        but might be some uses... using interfaces
+        
+12)What is mean by Polymorphism?
+💨 The word polymorphism means having many forms.
+    In other words, polymorphism allows you to define one interface and have multiple implementations
+    Real-life example :- A person at the same time can have different characteristics. Like a man at the same time is a father, a husband, an employee.
+                        So the same person possesses different behavior in different situations.
+                        This is called polymorphism.
+    Two types of Polymorphism = 
+    1)Compile-time Polymorphism = It is also known as static polymorphism.
+     This type of polymorphism is achieved by function overloading or operator overloading. 
+    Note: But Java doesn’t support the Operator Overloading.
+    
+    Method Overloading = When there are multiple functions with the same name but different parameters then these functions are said to be overloaded.
+     Functions can be overloaded by change in the number of arguments or/and a change in the type of arguments.
+    [Parent obj = new child();]
+
+    Runtime polymorphism =   It is also known as Dynamic Method Dispatch.
+                             It is a process in which a function call to the overridden method is resolved at Runtime.
+                            This type of polymorphism is achieved by Method Overriding. Method overriding, on the other hand, occurs when a derived class has a definition for one of the member functions of the base class.
+                            That base function is said to be overridden.
+
+13)What is mean by Encapsulation?
+💨 Encapsulation in Java is a process of wrapping code and data together 
+    into a single unit, for example, a capsule which is mixed of several medicines.
+    also its providing only a setter or getter method, you can make the class read-only or write-only.
+    also it is used for data hiding 
+
+14)What is mean by Abstraction?
+💨 Abstraction is a process to hiding the implementations details and 
+    Showing Only Functionalty to the User
+    Real-life example :- Consider a real-life example of a man driving a car. The man only knows that pressing the accelerators will increase the speed of a car or applying brakes will stop the car, but he does not know about how on pressing the accelerator the speed is actually increasing, he does not know about the inner mechanism of the car or the implementation of the accelerator, brakes, etc in the car. This is what abstraction is. 
